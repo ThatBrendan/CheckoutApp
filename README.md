@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CheckoutApp
 A simple front-end checkout application that mimics a real-life e-commerce checkout process. The project is built using Vue 3 and Typescript. It integrates with a set of RESTful APIs for fetching the basket, appyling coupons and processing checkout payments.
 
