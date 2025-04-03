@@ -136,5 +136,3 @@ This will return
 ```json
 { "success": true, "transactionId": "tbx-6a6da59ebfa86d3d106fb68be75c0fd7" }
 ```
-
->>>>>>> 35dfa5c64a53fac5fe08c94d62c4b80015bcc878
