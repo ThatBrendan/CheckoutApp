@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tebex Front-end Quest
 
 Greetings, adventurer! Embark upon this tech task as a noble quest.
@@ -135,3 +136,7 @@ This will return
 
 #### Assets
 All the assets you require wil be in the `public/` directory.
+=======
+# CheckoutApp
+A simple front-end checkout application that mimics a real-life e-commerce checkout process.
+>>>>>>> 35dfa5c64a53fac5fe08c94d62c4b80015bcc878
