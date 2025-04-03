@@ -18,7 +18,7 @@ test("Checkout process redirects to confirmation page", async ({ page }) => {
     await page.fill('input[aria-label="Coupon Code"]', "25OFF");
     await page.click("button.apply-button");
 
-    // Verify that the coupon success message appears
+    // Verify that the coupon message appears
     await expect(page.locator(".coupon-message")).toHaveText(
         "A coupon has already been applied."
     );

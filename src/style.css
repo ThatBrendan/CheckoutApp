@@ -143,7 +143,6 @@ p.order-number {
   margin-top: 5rem;
 }
 .coupon-input input {
-  width: 100%;
   padding: 10px;
 }
 .apply-button {
@@ -173,5 +172,8 @@ p.order-number {
   }
   .code-input {
     display: flex;
+  }
+  .coupon-input input {
+    width: 100%;
   }
 }
