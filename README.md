@@ -1,24 +1,15 @@
 <<<<<<< HEAD
-# Tebex Front-end Quest
-
-Greetings, adventurer! Embark upon this tech task as a noble quest.
+# CheckoutApp
+A simple front-end checkout application that mimics a real-life e-commerce checkout process. The project is built using Vue 3 and Typescript. It integrates with a set of RESTful APIs for fetching the basket, appyling coupons and processing checkout payments.
 
 ## Overview
+This project provides a responsive checkout experience wheree users can
+- View their order summary and basket details.
+- Apply a coupon to get a discount on their order.
+- Fill in payment details and compelete the checkout process.
+- Receive confirmation of their successful transaction.
 
-We would like you to create a simple front-end for a checkout using the Figma designs provided. In this project there are APIs that will enable you to complete the task.
-
-You may use any tools/libraries you need to help you to complete this quest!
-
-### What are we looking for?
-
-- Does the end product look exactly like the designs?
-- Does the form have some validation?
-- Is the code clean, consistent and extensible?
-- Add unit tests or e2e tests, you don't need to get 100% coverage a few tests should suffice
-- Consider responsive design, how does it look on mobile?
-
-Ready to get started?
-
+  
 ### Setup
 
 ```shell
@@ -35,6 +26,18 @@ This project uses vite to run the dev server execute
 
 ```shell
 npm run dev
+```
+
+To run the Playwright tests, execute
+
+```shell
+npm playwright test
+```
+
+To view the Playwright tests report, execute
+
+```shell
+npm playwright show-report
 ```
 
 ### API endpoints
@@ -134,9 +137,4 @@ This will return
 { "success": true, "transactionId": "tbx-6a6da59ebfa86d3d106fb68be75c0fd7" }
 ```
 
-#### Assets
-All the assets you require wil be in the `public/` directory.
-=======
-# CheckoutApp
-A simple front-end checkout application that mimics a real-life e-commerce checkout process.
 >>>>>>> 35dfa5c64a53fac5fe08c94d62c4b80015bcc878
