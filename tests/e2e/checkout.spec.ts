@@ -14,6 +14,15 @@ test("Checkout process redirects to confirmation page", async ({ page }) => {
         "Coupon applied successfully!"
     );
 
+    // Apply another coupon code whilst there is an existing coupon
+    await page.fill('input[aria-label="Coupon Code"]', "25OFF");
+    await page.click("button.apply-button");
+
+    // Verify that the coupon success message appears
+    await expect(page.locator(".coupon-message")).toHaveText(
+        "A coupon has already been applied."
+    );
+
     // Verify that the updated basket subtotal is shown
     await expect(page.locator('p:has-text("Subtotal:")')).toContainText(
         "11.24"

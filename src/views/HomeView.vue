@@ -1,5 +1,8 @@
 <template>
     <div class="container">
+        <div class="company-logo">
+            <img src="/img/logo.svg" alt="tebex-logo" />
+        </div>
         <div class="checkout row no-gutter">
             <div class="col-lg-6 basket-container">
                 <BasketSummary v-if="basket" :basket="basket" />
@@ -35,3 +38,11 @@ const loadBasket = async () => {
 
 onMounted(loadBasket);
 </script>
+
+<style scoped>
+@media screen and (min-width: 768px) {
+    .company-logo {
+        margin-left: 6rem;
+    }
+}
+</style>

@@ -1,6 +1,6 @@
 <template>
     <div class="coupon-input">
-        <p>Coupon/Gift Card</p>
+        <p class="boldFont small">Coupon/Gift Card</p>
         <div class="row no-gutter">
             <div class="col-8">
                 <input

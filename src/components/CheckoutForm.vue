@@ -1,13 +1,14 @@
 <template>
     <div class="payment-summary">
         <p class="small">
-            <span class="green-text">Make Payment</span> > Order Confirmed
+            <span class="green-text boldFont small">Make Payment </span> > Order
+            Confirmed
         </p>
 
         <div class="form-container">
             <form @submit.prevent="submitCheckout">
                 <div class="form-group email-input">
-                    <label for="email">Email*</label>
+                    <label for="email" class="small">Email*</label>
                     <input
                         type="email"
                         id="email"
@@ -17,7 +18,7 @@
                     />
                 </div>
                 <div class="form-group card-input">
-                    <label for="cardNumber">Card Number*</label>
+                    <label for="cardNumber" class="small">Card Number*</label>
                     <input
                         type="text"
                         id="cardNumber"
@@ -28,7 +29,9 @@
                 </div>
                 <div class="code-input">
                     <div class="form-group col-lg-2 col-12">
-                        <label for="expiryDate">Expiry Date*</label>
+                        <label for="expiryDate" class="small"
+                            >Expiry Date*</label
+                        >
                         <input
                             type="text"
                             id="expiryDate"
@@ -41,7 +44,9 @@
                         <!-- Spacer -->
                     </div>
                     <div class="form-group col-lg-2 col-12">
-                        <label for="securityNumber">CVC/CVV*</label>
+                        <label for="securityNumber" class="small"
+                            >CVC/CVV*</label
+                        >
                         <input
                             type="text"
                             id="securityNumber"
@@ -54,7 +59,9 @@
                         <!-- Spacer -->
                     </div>
                     <div class="form-group col-lg-6 col-12">
-                        <label for="postCode">Zip Code / Postal Code*</label>
+                        <label for="postCode" class="small"
+                            >Zip Code / Postal Code*</label
+                        >
                         <input
                             type="text"
                             id="postCode"
@@ -65,7 +72,7 @@
                     </div>
                 </div>
                 <div class="form-group name-on-card">
-                    <label for="nameOnCard">Name on Card*</label>
+                    <label for="nameOnCard" class="small">Name on card*</label>
                     <input
                         type="text"
                         id="nameOnCard"

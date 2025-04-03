@@ -17,7 +17,7 @@
                     products shortly.</span
                 >
                 <p v-if="orderId" class="order-number">
-                    Order number: {{ orderId }}
+                    <span class="boldFont">Order number:</span> {{ orderId }}
                 </p>
             </div>
         </div>
