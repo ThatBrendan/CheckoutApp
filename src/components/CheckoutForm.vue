@@ -90,11 +90,11 @@
                         Pay by Card
                     </button>
                 </div>
-                <div v-if="errorMessages.length > 0" class="error-messages">
+                <div v-if="errorMessages.length > 0">
                     <p
                         v-for="(msg, index) in errorMessages"
                         :key="index"
-                        class="red-text"
+                        class="small"
                     >
                         {{ msg }}
                     </p>
