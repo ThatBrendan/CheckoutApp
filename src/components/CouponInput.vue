@@ -2,7 +2,7 @@
     <div class="coupon-input">
         <p class="boldFont small">Coupon/Gift Card</p>
         <div class="row no-gutter">
-            <div class="col-8">
+            <div class="col-lg-9 col-8">
                 <input
                     v-model="couponCode"
                     placeholder="Enter coupon code"
@@ -10,8 +10,8 @@
                     aria-label="Coupon Code"
                 />
             </div>
-            <div class="col-1"></div>
-            <div class="col-3">
+            <div class=" col-1"></div>
+            <div class="col-lg-2 col-3">
                 <button @click="applyCoupon" class="apply-button">
                     Confirm
                 </button>
