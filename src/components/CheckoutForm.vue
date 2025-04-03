@@ -12,7 +12,7 @@
                     <input
                         type="email"
                         id="email"
-                        placeholder="Enter you email address"
+                        placeholder="Enter your email address"
                         aria-label="Email"
                         v-model="form.email"
                     />
